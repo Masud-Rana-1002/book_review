@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.menu li > *:not(ul, .menu-title, details, .btn):active, .menu li > *:not(ul, .menu-title, details, .btn).active, .menu li > details > summary:active{
+    color: #23BE0A;
+    background-color: transparent;
+    border: 1px solid #23BE0A;
+    font-weight: 500;
+}
+
+body{
+    font-family: "Work Sans";
+}
